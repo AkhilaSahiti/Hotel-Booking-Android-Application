@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:layout_margin="10dp"
+    android:orientation="vertical"
+    android:padding="3dp">
+
+    <GridLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_column="1"
+        android:layout_gravity="center"
+        android:layout_margin="10dp">
+
+        <TextView
+            android:id="@+id/name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_column="0"
+            android:layout_row="0"
+            android:text="Name" />
+
+        <EditText
+            android:id="@+id/customer_name"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_row="0"
+            android:layout_column="1"
+            android:text="Enter your name"/>
+
+        <TextView
+            android:id="@+id/phone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_row="1"
+            android:layout_column="0"
+            android:text="Contact No." />
+
+        <EditText
+            android:id="@+id/customer_phone"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_row="1"
+            android:layout_column="1"
+            android:text="Enter your contact number"/>
+
+        <TextView
+            android:id="@+id/email"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_row="2"
+            android:layout_column="0"
+            android:text="Email Id" />
+
+        <EditText
+            android:id="@+id/customer_email"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_row="2"
+            android:layout_column="1"
+            android:text="Enter your email id"/>
+
+        <TextView
+            android:id="@+id/room_type"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_row="3"
+            android:layout_column="0"
+            android:text="Room Type" />
+
+        <!---<Spinner
+            android:id="@+id/room_spinner"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_row="3"
+            android:layout_column="1"
+            android:entries="@array/room_types"/> -->
+
+        <TextView
+            android:id="@+id/no_of_rooms"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_row="4"
+            android:layout_column="0"
+            android:text="Room Type" />
+
+        <EditText
+            android:id="@+id/customer_no_of_rooms"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_row="4"
+            android:layout_column="1"
+            android:text="Enter number of rooms"/>
+
+        <TextView
+            android:id="@+id/stay_days"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_row="5"
+            android:layout_column="0"
+            android:text="No. of Stay days" />
+
+        <EditText
+            android:id="@+id/customer_stay_days"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_row="5"
+            android:layout_column="1"
+            android:text="Enter number of stay days"/>
+
+        <TextView
+            android:id="@+id/checkin_date"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_row="6"
+            android:layout_column="0"
+            android:text="Check-in Date" />
+
+        <EditText
+            android:id="@+id/customer_checkin_date"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_row="6"
+            android:layout_column="1"
+            android:text="Enter check-in date"/>
+
+        <TextView
+            android:id="@+id/checkout_date"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_row="7"
+            android:layout_column="0"
+            android:text="Check-out Date" />
+
+        <EditText
+            android:id="@+id/customer_checkout_date"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_row="7"
+            android:layout_column="1"
+            android:text="Enter check-out date"/>
+
+        <TextView
+            android:id="@+id/address"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_row="8"
+            android:layout_column="0"
+            android:text="Residential address" />
+
+        <EditText
+            android:id="@+id/customer_address"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_row="8"
+            android:layout_column="1"
+            android:text="Enter residence address"/>
+
+    </GridLayout>
+</LinearLayout>

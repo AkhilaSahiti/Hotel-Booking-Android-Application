@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">miniProject</string>
+    <string name="title_activity_rates_of_rooms">RatesOfRooms</string>
+    <string name="title_activity_facilities">Facilities</string>
+</resources>
