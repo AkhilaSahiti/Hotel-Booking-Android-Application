@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:layout_gravity="center"
-    android:layout_margin="10dp"
+    android:layout_margin="15dp"
     android:orientation="vertical"
     android:padding="3dp">
 
@@ -12,15 +13,17 @@
         android:layout_height="wrap_content"
         android:layout_column="1"
         android:layout_gravity="center"
-        android:layout_margin="3dp">
+        android:layout_margin="5dp">
 
         <ImageView
             android:id="@+id/single_bedroom_image"
-            android:layout_width="100dp"
-            android:layout_height="100dp"
-            android:layout_margin="10dp"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
             android:layout_column="0"
-            android:padding="3dp" />
+            android:layout_margin="10dp"
+            android:padding="3dp"
+            android:src="@drawable/single_bed" />
+
 
         <LinearLayout
             android:layout_width="wrap_content"
@@ -42,7 +45,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="5dp"
-                android:text="Description" />
+                android:text="Air Conditioning, Work Desk, Shower, Hair dryer, Free toiletries, Bathroom. Toilet, Slippers, Telephone, Cable channels, Flat screen TV, Tea/Coffee maker, Refrigerator, Wake up service" />
 
         </LinearLayout>
 
@@ -53,15 +56,16 @@
         android:layout_height="wrap_content"
         android:layout_column="1"
         android:layout_gravity="center"
-        android:layout_margin="3dp">
+        android:layout_margin="5dp">
 
         <ImageView
             android:id="@+id/double_bedroom_image"
-            android:layout_width="100dp"
-            android:layout_height="100dp"
-            android:layout_margin="10dp"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
             android:layout_column="0"
-            android:padding="3dp" />
+            android:layout_margin="10dp"
+            android:padding="3dp"
+            android:src="@drawable/double_bed" />
 
         <LinearLayout
             android:layout_width="wrap_content"
@@ -83,7 +87,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="5dp"
-                android:text="Description" />
+                android:text="Free wifi, Slippers for two, Telephone, Cable channels, Flat screen TV, Air Conditioning, Work Desk, Shower, Hair dryer, Free toiletries, Bathroom, Toilet, Tea/Coffee maker, Refrigerator, Wake up service" />
 
         </LinearLayout>
 
@@ -94,21 +98,22 @@
         android:layout_height="wrap_content"
         android:layout_column="1"
         android:layout_gravity="center"
-        android:layout_margin="3dp">
+        android:layout_margin="5dp">
 
         <ImageView
             android:id="@+id/triple_bedroom_image"
-            android:layout_width="100dp"
-            android:layout_height="100dp"
-            android:layout_margin="10dp"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
             android:layout_column="0"
-            android:padding="3dp" />
+            android:layout_margin="10dp"
+            android:padding="3dp"
+            android:src="@drawable/triple_bed" />
 
         <LinearLayout
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:orientation="vertical"
-            android:layout_margin="3dp">
+            android:layout_margin="3dp"
+            android:orientation="vertical">
 
             <TextView
                 android:id="@+id/triple_bedroom"
@@ -124,11 +129,52 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="5dp"
-                android:text="Description" />
+                android:text="Spacious, Wardrobe, Safety deposit box, Towels, Tea/Coffee maker, Refrigerator, Free wifi, Slippers for two, Telephone, Cable channels, Flat screen TV, Air Conditioning, Work Desk, Shower, Hair dryer, Free toiletries, Bathroom, Toilet, Tea/Coffee maker, Refrigerator, Wake up service" />
 
         </LinearLayout>
 
     </GridLayout>
 
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_column="1"
+        android:layout_gravity="center"
+        android:layout_margin="5dp">
+
+        <ImageView
+            android:id="@+id/four_bedroom_image"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_column="0"
+            android:layout_margin="10dp"
+            android:padding="3dp"
+            android:src="@drawable/four_beds" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="3dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/four_bedroom"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:layout_marginBottom="15dp"
+                android:text="Four Beds" />
+
+
+            <TextView
+                android:id="@+id/four_room_description"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="Tea/Coffee maker, Safety deposit box, Towels, Wardrobe, Toilet, Free wifi, Slippers for two, Telephone, Cable channels, Flat screen TV, Air Conditioning, Work Desk, Shower, Hair dryer, Free toiletries, Bathroom, Toilet, Tea/Coffee maker, Refrigerator, Wake up service" />
+
+        </LinearLayout>
+
+    </GridLayout>
 
 </LinearLayout>

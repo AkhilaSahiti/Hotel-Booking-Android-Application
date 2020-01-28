@@ -19,7 +19,7 @@ public class MainActivity extends AppCompatActivity {
         room.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(MainActivity.this,RatesOfRooms.class);
+                Intent intent = new Intent(MainActivity.this,RoomAvailability.class);
                 startActivity(intent);
             }
         });
@@ -43,7 +43,7 @@ public class MainActivity extends AppCompatActivity {
         rates.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(MainActivity.this,RoomAvailability.class);
+                Intent intent = new Intent(MainActivity.this,RatesOfRooms.class);
                 startActivity(intent);
             }
         });
