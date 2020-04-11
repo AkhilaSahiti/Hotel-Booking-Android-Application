@@ -4,11 +4,13 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:layout_gravity="center"
-    android:layout_margin="15dp"
+    android:layout_margin="5dp"
     android:orientation="vertical"
+    android:background="@drawable/bg2"
     android:padding="3dp">
 
     <GridLayout
+        android:id="@+id/on_click_singleBed"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_column="1"
@@ -18,18 +20,20 @@
         <ImageView
             android:id="@+id/single_bedroom_image"
             android:layout_width="150dp"
-            android:layout_height="150dp"
+            android:layout_height="130dp"
             android:layout_column="0"
-            android:layout_margin="10dp"
-            android:padding="3dp"
+            android:layout_margin="5dp"
+            android:background="@drawable/black"
             android:src="@drawable/single_bed" />
 
-
         <LinearLayout
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:orientation="vertical"
-            android:layout_margin="3dp">
+            android:layout_width="206dp"
+            android:layout_height="123dp"
+            android:layout_row="0"
+            android:layout_column="1"
+            android:layout_margin="3dp"
+            android:background="@android:color/holo_green_dark"
+            android:orientation="vertical">
 
             <TextView
                 android:id="@+id/single_bedroom"
@@ -37,21 +41,34 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="15dp"
                 android:layout_marginBottom="15dp"
-                android:text="Single Bedroom" />
+                android:text="Single Bedroom"
+                android:textColor="@color/cardview_light_background"
+                android:textSize="15dp"
+                android:textStyle="bold" />
 
 
             <TextView
                 android:id="@+id/single_room_description"
-                android:layout_width="wrap_content"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="5dp"
-                android:text="Air Conditioning, Work Desk, Shower, Hair dryer, Free toiletries, Bathroom. Toilet, Slippers, Telephone, Cable channels, Flat screen TV, Tea/Coffee maker, Refrigerator, Wake up service" />
+                android:text="Air Conditioning, Work Desk, Shower, Hair dryer, Slippers, Tea/Coffee maker, TVetc. "
+                android:textColor="@color/cardview_light_background"
+                android:textSize="15dp"
+                android:textStyle="italic" />
 
         </LinearLayout>
 
     </GridLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/colorPrimaryDark">
+
+    </View>
 
     <GridLayout
+        android:id="@+id/on_click_doubleBed"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_column="1"
@@ -63,15 +80,16 @@
             android:layout_width="150dp"
             android:layout_height="150dp"
             android:layout_column="0"
-            android:layout_margin="10dp"
-            android:padding="3dp"
+            android:layout_margin="5dp"
+            android:background="@drawable/black"
             android:src="@drawable/double_bed" />
 
         <LinearLayout
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:orientation="vertical"
-            android:layout_margin="3dp">
+            android:layout_width="216dp"
+            android:layout_height="146dp"
+            android:layout_margin="3dp"
+            android:background="@android:color/holo_orange_dark"
+            android:orientation="vertical">
 
             <TextView
                 android:id="@+id/double_bedroom"
@@ -79,7 +97,10 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="15dp"
                 android:layout_marginBottom="15dp"
-                android:text="Double Bedroom" />
+                android:text="Double Bedroom"
+                android:textColor="@color/cardview_dark_background"
+                android:textSize="15dp"
+                android:textStyle="bold" />
 
 
             <TextView
@@ -87,13 +108,24 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="5dp"
-                android:text="Free wifi, Slippers for two, Telephone, Cable channels, Flat screen TV, Air Conditioning, Work Desk, Shower, Hair dryer, Free toiletries, Bathroom, Toilet, Tea/Coffee maker, Refrigerator, Wake up service" />
+                android:text="Free wifi, Slippers for two, Telephone, Cable channels, Flat screen TV, Air Conditioning, etc."
+                android:textColor="@color/cardview_dark_background"
+                android:textSize="15dp"
+                android:textStyle="italic" />
 
         </LinearLayout>
 
     </GridLayout>
 
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/colorPrimaryDark">
+
+    </View>
+
     <GridLayout
+        android:id="@+id/on_click_tripleBed"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_column="1"
@@ -105,14 +137,18 @@
             android:layout_width="150dp"
             android:layout_height="150dp"
             android:layout_column="0"
-            android:layout_margin="10dp"
+            android:layout_margin="5dp"
+            android:background="@drawable/black"
             android:padding="3dp"
             android:src="@drawable/triple_bed" />
 
         <LinearLayout
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_width="218dp"
+            android:layout_height="141dp"
+            android:layout_row="0"
+            android:layout_column="1"
             android:layout_margin="3dp"
+            android:background="@color/colorPrimary"
             android:orientation="vertical">
 
             <TextView
@@ -121,7 +157,10 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="15dp"
                 android:layout_marginBottom="15dp"
-                android:text="Triple Bedroom" />
+                android:text="Triple Bedroom"
+                android:textColor="@color/cardview_light_background"
+                android:textSize="15dp"
+                android:textStyle="bold" />
 
 
             <TextView
@@ -129,13 +168,24 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="5dp"
-                android:text="Spacious, Wardrobe, Safety deposit box, Towels, Tea/Coffee maker, Refrigerator, Free wifi, Slippers for two, Telephone, Cable channels, Flat screen TV, Air Conditioning, Work Desk, Shower, Hair dryer, Free toiletries, Bathroom, Toilet, Tea/Coffee maker, Refrigerator, Wake up service" />
+                android:text="Spacious, Wardrobe, Safety deposit box, Towels, Free wifi, Slippers for two, Telephone, Cable channels, etc"
+                android:textColor="@color/cardview_light_background"
+                android:textSize="15dp"
+                android:textStyle="italic" />
 
         </LinearLayout>
 
     </GridLayout>
 
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/colorPrimaryDark">
+
+    </View>
+
     <GridLayout
+        android:id="@+id/on_click_fourBed"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_column="1"
@@ -145,16 +195,17 @@
         <ImageView
             android:id="@+id/four_bedroom_image"
             android:layout_width="150dp"
-            android:layout_height="150dp"
+            android:layout_height="160dp"
             android:layout_column="0"
-            android:layout_margin="10dp"
-            android:padding="3dp"
+            android:layout_margin="5dp"
+            android:background="@drawable/black"
             android:src="@drawable/four_beds" />
 
         <LinearLayout
-            android:layout_width="wrap_content"
+            android:layout_width="220dp"
             android:layout_height="wrap_content"
             android:layout_margin="3dp"
+            android:background="@color/colorAccent"
             android:orientation="vertical">
 
             <TextView
@@ -163,7 +214,10 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="15dp"
                 android:layout_marginBottom="15dp"
-                android:text="Four Beds" />
+                android:text="Four Beds"
+                android:textColor="@color/cardview_light_background"
+                android:textSize="15dp"
+                android:textStyle="bold" />
 
 
             <TextView
@@ -171,10 +225,20 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="5dp"
-                android:text="Tea/Coffee maker, Safety deposit box, Towels, Wardrobe, Toilet, Free wifi, Slippers for two, Telephone, Cable channels, Flat screen TV, Air Conditioning, Work Desk, Shower, Hair dryer, Free toiletries, Bathroom, Toilet, Tea/Coffee maker, Refrigerator, Wake up service" />
+                android:text="Tea/Coffee maker, Safety deposit box, Towels, Wardrobe, Free wifi, Slippers for two, Telephone, Cable channels, Flat screen TV,etc"
+                android:textColor="@color/cardview_light_background"
+                android:textSize="15dp"
+                android:textStyle="italic" />
 
         </LinearLayout>
 
     </GridLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/colorPrimaryDark">
+
+    </View>
 
 </LinearLayout>

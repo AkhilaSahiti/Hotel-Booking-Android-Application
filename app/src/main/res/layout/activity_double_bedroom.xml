@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@drawable/bg2"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".room_types.SingleBedroom">
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp"
+        android:text="DOUBLE BEDS"
+        android:background="@color/colorAccent"
+        android:textColor="@color/cardview_dark_background"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:gravity="center" />
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginBottom="10dp"
+        android:background="@color/colorPrimaryDark">
+
+    </View>
+<HorizontalScrollView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+<LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+    <ImageView
+        android:layout_width="350dp"
+        android:layout_height="150dp"
+        android:layout_margin="15dp"
+        android:src="@drawable/double_bed"/>
+
+     <ImageView
+        android:layout_width="350dp"
+        android:layout_height="150dp"
+        android:src="@drawable/singlebed2"/>
+
+    <ImageView
+        android:layout_width="350dp"
+        android:layout_height="150dp"
+        android:src="@drawable/single_bed"/>
+
+    <ImageView
+        android:layout_width="350dp"
+        android:layout_height="150dp"
+        android:src="@drawable/singlebed3"/>
+
+    <ImageView
+        android:layout_width="350dp"
+        android:layout_height="150dp"
+        android:src="@drawable/singlebed4"
+        android:layout_marginRight="15dp" />
+</LinearLayout>
+</HorizontalScrollView>
+
+    <TextView
+        android:id="@+id/AC"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginTop="15dp"
+        android:layout_margin="10dp"
+        android:textSize="18dp"
+        android:textColor="@color/colorPrimaryDark"
+        android:text="@string/ac"/>
+
+    <TextView
+        android:id="@+id/workdesk"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textSize="18dp"
+        android:layout_margin="10dp"
+        android:textColor="@color/colorPrimaryDark"
+        android:text="@string/WorkDesk"/>
+
+
+    <TextView
+        android:id="@+id/towels"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_margin="10dp"
+        android:textSize="18dp"
+        android:textColor="@color/colorPrimaryDark"
+        android:text="@string/towels"/>
+
+    <TextView
+        android:id="@+id/tea"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_margin="10dp"
+        android:textSize="18dp"
+        android:textColor="@color/colorPrimaryDark"
+        android:text="@string/tea_maker"/>
+
+    <TextView
+        android:id="@+id/wardrobe"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_margin="10dp"
+        android:textSize="18dp"
+        android:textColor="@color/colorPrimaryDark"
+        android:text="@string/wardrobe"/>
+
+    <TextView
+        android:id="@+id/tv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_margin="10dp"
+        android:textSize="18dp"
+        android:textColor="@color/colorPrimaryDark"
+        android:text="@string/tv"/>
+
+    <TextView
+        android:id="@+id/wifi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_margin="10dp"
+        android:textSize="18dp"
+        android:textColor="@color/colorPrimaryDark"
+        android:text="@string/wifi"/>
+
+
+</LinearLayout>

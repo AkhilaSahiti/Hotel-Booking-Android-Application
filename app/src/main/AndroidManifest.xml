@@ -9,8 +9,20 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".RoomAvailability"></activity>
+        <activity android:name=".PinGeneration"></activity>
+        <activity android:name=".RegistrationPage2" />
+        <activity android:name=".HotelSelection" />
+        <activity android:name=".models.Customer" />
+        <activity android:name=".RegisteredUserdetails" />
+        <activity android:name=".storage.Database" />
+        <activity android:name=".RegistrationPage1" />
+        <activity android:name=".BookingConfirmation" />
+        <activity android:name=".room_types.RoomAvailability" />
         <activity android:name=".Booking" />
+        <activity android:name=".room_types.SingleBedroom" />
+        <activity android:name=".room_types.TripleBedroom" />
+        <activity android:name=".room_types.DoubleBedroom" />
+        <activity android:name=".room_types.FourBedroom" />
         <activity
             android:name=".Facilities"
             android:label="@string/title_activity_facilities"

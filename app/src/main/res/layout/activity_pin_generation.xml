@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:layout_marginTop="100dp"
+    android:background="@drawable/hotel6"
+    android:layout_margin="1dp"
+    android:orientation="vertical"
+    android:padding="3dp">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="15dp"
+        android:hint="PIN GENERATION"
+        android:background="@color/colorAccent"
+        android:textSize="20dp"
+        android:textColor="@color/cardview_light_background"
+        android:textStyle="bold"
+        android:layout_gravity="center"
+        android:textAlignment="center"/>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginBottom="40dp"
+        android:background="@color/colorPrimaryDark">
+    </View>
+
+    <GridLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_column="1"
+        android:layout_gravity="center"
+        android:layout_margin="15dp"
+        android:layout_marginTop="400dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="15dp"
+            android:padding="5dp"
+            android:textSize="16dp"
+            android:background="@drawable/black"
+            android:textColor="@color/colorPrimaryDark"
+            android:layout_column="0"
+            android:layout_row="0"
+            android:text="Enter Email " />
+
+        <EditText
+            android:id="@+id/generated_email"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_margin="15dp"
+            android:padding="5dp"
+            android:textSize="16dp"
+            android:background="@drawable/black"
+            android:textColor="@color/colorPrimaryDark"
+            android:layout_row="0"
+            android:layout_column="1"
+            android:hint="Enter your email"/>
+
+        <TextView
+            android:id="@+id/pin_generation"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="15dp"
+            android:background="@drawable/black"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="16dp"
+            android:padding="5dp"
+            android:layout_row="1"
+            android:layout_column="0"
+            android:text="PIN Generation" />
+
+        <EditText
+            android:id="@+id/pin_reset"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="15dp"
+            android:textSize="16dp"
+            android:padding="5dp"
+            android:textColor="@color/colorPrimaryDark"
+            android:background="@drawable/black"
+            android:layout_row="1"
+            android:layout_column="1"
+            android:inputType="phone"
+            android:hint="Enter 6 digit PIN to reset"/>
+            </GridLayout>
+
+    <Button
+        android:id="@+id/reset"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center"
+        android:padding="5dp"
+        android:background="@drawable/black"
+        android:text="Save" />
+</LinearLayout>

@@ -2,4 +2,62 @@
     <string name="app_name">miniProject</string>
     <string name="title_activity_rates_of_rooms">RatesOfRooms</string>
     <string name="title_activity_facilities">Facilities</string>
+    <string name="heading">Looking for any suitable hotel?? </string>
+    <string name="forgot_password"><u>Forgot Password?</u></string>
+
+    <string name="ac">
+    <a href="https://www.samsung.com/in/business/air-conditioner-solutions/welcoming-air-for-hotels/">Air Conditioner </a>
+    </string>
+
+    <string name="tea_maker">
+    <a href="https://www.oyorooms.com/hotels-in-katra/with-coffee-tea-maker/">Tea maker </a>
+    </string>
+
+    <string name="deposit_box">
+    <a href="https://www.bngkolkata.com/safe-deposit-locker/">Safety Deposit Locker</a>
+    </string>
+
+    <string name="hot_water">
+    <a href="https://www.base-4.com/water-heaters-for-hotels/">24 hrs running hot water</a>
+    </string>
+
+    <string name="wifi">
+    <a href="https://www.netspotapp.com/how-to-get-free-wifi.html">Free Wifi Connection</a>
+    </string>
+
+    <string name="room_service">
+    <a href="https://www.hospitality-school.com/hotel-room-service-procedure/">24 hrs Room Service</a>
+    </string>
+
+    <string name="washroom_bathroom">
+    <a href="https://www.homify.in/ideabooks/901854/10-best-small-bathroom-designs-for-indian-homes">Attached washroom with bathroom</a>
+    </string>
+
+    <string name="slippers">
+    <a href="https://slippersowner.com/what-are-bathroom-slippers-and-shower-sandals/">Bathroom Slippers</a>
+    </string>
+
+    <string name="tv">
+    <a href="https://www.samsung.com/us/business/products/tvs/hospitality/">Flat Screen Tv with cable channels</a>
+    </string>
+
+    <string name="wardrobe">
+    <a href="https://www.archiproducts.com/en/products/hotel-wardrobes">Spacious wardrobe with Safety Deposit Box</a>
+    </string>
+
+    <string name="WorkDesk">
+    <a href="https://www.archiproducts.com/en/products/hotel-desks">WorkDesk</a>
+    </string>
+
+    <string name="towels">
+    <a href="https://www.webstaurantstore.com/guide/642/hotel-towels-buying-guide.html">Towels, Soap, Shampoo</a>
+    </string>
+
+    <string-array name="room_type">
+        <item>Choose Any</item>
+        <item>Single BedRoom</item>
+        <item>Double BedRoom</item>
+        <item>Three BedsRoom</item>
+        <item>Four BedsRoom</item>
+    </string-array>
 </resources>
